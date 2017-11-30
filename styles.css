@@ -1,0 +1,24 @@
+#container {
+      display:flex;
+          }
+body {
+    background:url(http://www.fashionablefabrics.com/images/products/detail/VeryHungryCaterpillarHappyBirthdayConfettibyEricCarleforAndoverFabrics5878M.jpg);
+    font-family:'Ranchers', cursive;
+    color:black;
+}
+#lists:hover {
+    color:red;
+}
+#names:hover {
+    color:blue;
+     cursor: url(https://christianfamilyheritage.org/wp-content/uploads/2016/11/christmas-gifts.jpg), pointer;
+}
+img {
+    width:500px;
+    transform: translate(180px, 22%);
+    transition-duration: 5s;
+    -webkit-transition-property: width;
+ }
+img:hover {
+    width:300px;
+}
